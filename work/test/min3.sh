@@ -1,0 +1,5 @@
+#!/bin/sh
+MODDIR="$PWD/module"
+KEYLAYOUT_SOURCE="$PWD/Generic.kl"
+export MODDIR KEYLAYOUT_SOURCE="$KEYLAYOUT_SOURCE"
+echo ok2

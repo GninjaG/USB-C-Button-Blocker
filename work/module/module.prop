@@ -1,0 +1,6 @@
+id=usb_c_button_blocker
+name=USB-C Button Blocker
+version=1.0.0
+versionCode=1
+author=Vitor
+description=Blocks phantom volume/media buttons from USB-C audio adapters and analog headset jacks at runtime, preserving DAC audio, physical gpio-keys and Bluetooth AVRCP.

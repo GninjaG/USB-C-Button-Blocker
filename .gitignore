@@ -1,0 +1,49 @@
+# Visual Studio / MSVC
+.vs/
+out/
+build/
+build_vs/
+build_*/
+dist/
+dist_*/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# vcpkg
+vcpkg_installed/
+
+# Binaries, archives and object files
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+*.zip
+*.7z
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+imgui.ini

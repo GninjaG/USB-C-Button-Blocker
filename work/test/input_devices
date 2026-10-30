@@ -1,0 +1,40 @@
+I: Bus=0003 Vendor=2e5a Product=0001 Version=0111
+N: Name="CX31993 USB Audio"
+P: Phys=usb-0000:00:14.0-1/input2
+S: Sysfs=/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.2/0003:2E5A:0001.0001/input/input7
+U: Uniq=
+H: Handlers=event7
+B: PROP=0
+B: EV=100013
+B: KEY=30000 0 0 0 0
+
+I: Bus=0019 Vendor=0000 Product=0000 Version=0000
+N: Name="Button Jack"
+P: Phys=button-jack/input0
+S: Sysfs=/devices/virtual/input/input8
+U: Uniq=
+H: Handlers=event8
+B: PROP=0
+B: EV=3
+B: KEY=100000000000000 0 0 0
+
+I: Bus=0011 Vendor=0001 Product=0001 Version=ab41
+N: Name="gpio-keys"
+P: Phys=gpio-keys/input0
+S: Sysfs=/devices/platform/gpio-keys/input/input0
+U: Uniq=
+H: Handlers=event0
+B: PROP=0
+B: EV=3
+B: KEY=100000000000000 0 0 0
+
+
+I: Bus=0005 Vendor=000f Product=0001 Version=0000
+N: Name="BT Headset Buttons"
+P: Phys=bluetooth
+S: Sysfs=/devices/virtual/input/input11
+U: Uniq=
+H: Handlers=event11
+B: PROP=0
+B: EV=3
+B: KEY=30000 0 0 0 0
